@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, select, button{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input.error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+input.success {
+  border: 2px solid green;
+  background-color: #e6ffe6;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+}
+
+#success-message {
+  color: green;
+  font-weight: bold;
+}
+
+
+
